@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .colortoggle__wrapper {
+    background: beige;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 30px;
+  }
+  
+  .colortoggle__header {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .colortoggle__header h1 {
+    padding: 10px;
+  }
+  
+  .colortoggle__menu-icon img {
+    cursor: pointer;
+    width: 30px;
+  }
+  
+  .colortoggle__nav-menu {
+    cursor: pointer;
+  }
+  
+  .colortoggle__color-menu {
+    list-style: none;
+    width: 0;
+    opacity: 0;
+    transition: ease-in-out;
+    transition-duration: 1000ms;
+  }
+  
+  .colortoggle__color-menu li {
+    opacity: 0;
+  }
+  
+  .colortoggle__color-menu--show {
+    width: 100px;
+    opacity: 1;
+  }
+  
+  .colortoggle__color-menu--show li {
+    padding: 10px;
+    width: 100px;
+    opacity: 1;
+  }
+  
+  .colortoggle__color-menu--blue,
+  .blue {
+    background: blue;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .background-text-blue::after {
+    content: "BLUE";
+  }
+  
+  .colortoggle__color-menu--pink,
+  .pink {
+    background: pink;
+  }
+  
+  .background-text-pink::after {
+    content: "PINK";
+  }
+  
+  .colortoggle__color-menu--green,
+  .green {
+    background: green;
+  }
+  
+  .background-text-green::after {
+    content: "GREEN";
+  }
+  
+  .colortoggle__color-menu--yellow,
+  .yellow {
+    background: yellow;
+  }
+  
+  .background-text-yellow::after {
+    content: "YELLOW";
+  }
+  
+  .colortoggle__color-menu--purple,
+  .purple {
+    background: purple;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .background-text-purple::after {
+    content: "PURPLE";
+  }
+  
+  .background-text {
+    color: black;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+  }/*# sourceMappingURL=style.css.map */
